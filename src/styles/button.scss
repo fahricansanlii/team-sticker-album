@@ -1,0 +1,11 @@
+@import './color-variables';
+
+.button {
+    opacity: 0.8;
+    border: 2px solid $border-color;
+    border-radius: 4px;
+    outline: none;
+    background-color: white;
+    color: $brand-text-color;
+    cursor: pointer;
+}

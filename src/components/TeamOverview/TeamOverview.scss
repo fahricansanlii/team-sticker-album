@@ -1,0 +1,77 @@
+@import 'styles/variables';
+@import 'styles/mixins';
+
+.team-overview {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 20px 0;
+
+    @include media-breakpoint-up(sm) {
+        padding: 20px;
+    }
+
+    &__team-details-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        @include media-breakpoint-up(md) {
+            flex-direction: row;
+            text-align: left;
+            align-items: flex-start;
+        }
+    }
+
+    &__team-logo {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    &__team-name {
+        color: $brand-title-color;
+        @include heading-medium;
+    }
+
+    &__team-motto {
+        color: $brand-strong-title-color;
+        @include heading-small;
+    }
+
+    &__team-introduction-text {
+        color: $brand-text-color;
+        @include text-small;
+    }
+
+    &__team-members {
+        padding: 32px 0;
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+
+    &__team-member {
+        text-align: center;
+        flex-basis: 100%;
+
+        @include media-breakpoint-up(sm) {
+            flex-basis: 50%;
+        }
+
+        @include media-breakpoint-up(md) {
+            flex-basis: 33.3%;
+        }
+
+        @include media-breakpoint-up(lg) {
+            flex-basis: 25%;
+        }
+
+        &-detail {
+            margin: auto;
+            max-width: 200px;
+        }
+    }
+}

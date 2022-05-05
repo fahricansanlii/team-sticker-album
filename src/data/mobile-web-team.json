@@ -1,0 +1,102 @@
+[
+    {
+        "id": 11,
+        "first_name": "Raine",
+        "last_name": "Laffranconi",
+        "email": "rlaffranconia@youtube.com",
+        "gender": "Female",
+        "avatar": 4,
+        "job_title": "Team Lead",
+        "team_id": 2
+    },
+    {
+        "id": 12,
+        "first_name": "Zacharias",
+        "last_name": "Caplis",
+        "email": "zcaplisb@ca.gov",
+        "gender": "Male",
+        "avatar": 1,
+        "job_title": "Senior Product Manager",
+        "team_id": 2
+    },
+    {
+        "id": 13,
+        "first_name": "Cookie",
+        "last_name": "Tome",
+        "email": "ctomec@mtv.com",
+        "gender": "Female",
+        "avatar": 5,
+        "job_title": "Frontend Engineer",
+        "team_id": 2
+    },
+    {
+        "id": 14,
+        "first_name": "Corine",
+        "last_name": "Bernardino",
+        "email": "cbernardinod@amazonaws.com",
+        "gender": "Female",
+        "avatar": 7,
+        "job_title": "Frontend Engineer",
+        "team_id": 2
+    },
+    {
+        "id": 15,
+        "first_name": "Donnell",
+        "last_name": "Fullicks",
+        "email": "dfullickse@ucoz.ru",
+        "gender": "Male",
+        "avatar": 3,
+        "job_title": "Software Engineer",
+        "team_id": 2
+    },
+    {
+        "id": 16,
+        "first_name": "Jewell",
+        "last_name": "Keeves",
+        "email": "jkeevesf@fda.gov",
+        "gender": "Female",
+        "avatar": 2,
+        "job_title": "Senior Software Engineer",
+        "team_id": 2
+    },
+    {
+        "id": 17,
+        "first_name": "Vito",
+        "last_name": "Arnolds",
+        "email": "varnoldsg@tuttocitta.it",
+        "gender": "Male",
+        "avatar": 6,
+        "job_title": "Senior Frontend Engineer",
+        "team_id": 2
+    },
+    {
+        "id": 18,
+        "first_name": "Adelaide",
+        "last_name": "Callen",
+        "email": "acallenh@cbc.ca",
+        "gender": "Female",
+        "avatar": 4,
+        "job_title": "Senior Frontend Engineer",
+        "team_id": 2
+    },
+    {
+        "id": 19,
+        "first_name": "Eleanora",
+        "last_name": "Kinnerk",
+        "email": "ekinnerki@jalbum.net",
+        "gender": "Female",
+        "avatar": 5,
+        "job_title": "Software Engineer",
+        "team_id": 2
+    },
+    {
+        "id": 20,
+        "first_name": "Huntley",
+        "last_name": "Flips",
+        "email": "hflipsj@mashable.com",
+        "gender": "Male",
+        "avatar": 7,
+        "job_title": "Senior Software Engineer",
+        "team_id": 2
+    }
+]

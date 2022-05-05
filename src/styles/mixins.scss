@@ -1,0 +1,84 @@
+@import './font-size-variables';
+@import './breakpoints-variables';
+
+@mixin media-breakpoint-up($breakpoint) {
+    // If the key exists in the map
+    @if map-has-key($breakpoints, $breakpoint) {
+        // Prints a media query based on the value
+        @media (min-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+}
+
+@mixin text-small {
+    font-size: $text-xsmall;
+
+    @include media-breakpoint-up(sm) {
+        font-size: $text-small;
+    }
+}
+
+@mixin text-medium {
+    font-size: $text-small;
+
+    @include media-breakpoint-up(sm) {
+        font-size: $text-medium;
+    }
+}
+
+@mixin text-large {
+    font-size: $text-medium;
+
+    @include media-breakpoint-up(sm) {
+        font-size: $text-large;
+    }
+}
+
+@mixin text-xlarge {
+    font-size: $text-large;
+
+    @include media-breakpoint-up(sm) {
+        font-size: $text-xlarge;
+    }
+}
+
+@mixin heading-xsmall {
+    font-size: $heading-xxsmall;
+
+    @include media-breakpoint-up(sm) {
+        font-size: $heading-xsmall;
+    }
+}
+
+@mixin heading-small {
+    font-size: $heading-xsmall;
+
+    @include media-breakpoint-up(sm) {
+        font-size: $heading-small;
+    }
+}
+
+@mixin heading-medium {
+    font-size: $heading-small;
+
+    @include media-breakpoint-up(sm) {
+        font-size: $heading-medium;
+    }
+}
+
+@mixin heading-large {
+    font-size: $heading-medium;
+
+    @include media-breakpoint-up(sm) {
+        font-size: $heading-large;
+    }
+}
+
+@mixin heading-xlarge {
+    font-size: $heading-large;
+
+    @include media-breakpoint-up(sm) {
+        font-size: $heading-xlarge;
+    }
+}

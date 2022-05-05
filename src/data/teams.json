@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Web Team",
+        "motto": "BLAZING FAST WEB",
+        "description": "We are responsible for wwww.trendyol.com and our most critical KPI is  UI/UX and adding new features. We always focus on customer satisfaction.",
+        "numberOfTeamMembers": 10
+    },
+    {
+        "id": 2,
+        "name": "Mobile Web Team",
+        "motto": "OUR FAVORITE SMART PHONE IS IPHONE 4",
+        "description": "We are responsible for m.trendyol.com and our most critical KPI is  UI/UX and adding new features. We always focus on customer satisfaction.",
+        "numberOfTeamMembers": 10
+    }
+]

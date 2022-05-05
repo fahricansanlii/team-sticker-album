@@ -1,0 +1,56 @@
+@import 'styles/font-size-variables';
+@import 'styles/mixins';
+
+.app-layout {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+
+    @include media-breakpoint-up(md) {
+        padding: 50px 0;
+    }
+
+    &__content {
+        height: 100%;
+        width: calc(100% - 92px);
+        margin: auto;
+
+        @include media-breakpoint-up(md) {
+            width: calc(100% - 156px);
+        }
+    }
+
+    &__button {
+        box-shadow: none !important;
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 3px 6px;
+        width: 30px;
+
+        &--back {
+            left: 8px;
+        }
+
+        &--next {
+            right: 8px;
+        }
+
+        &--hide {
+            display: none;
+        }
+
+        @include media-breakpoint-up(md) {
+            padding: 6px 12px;
+            width: 42px;
+
+            &--back {
+                left: 20px;
+            }
+
+            &--next {
+                right: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "first_name": "Justen",
+        "last_name": "Binner",
+        "email": "jbinner0@thetimes.co.uk",
+        "gender": "Male",
+        "avatar": 1,
+        "job_title": "Team Lead",
+        "team_id": 1
+    },
+    {
+        "id": 2,
+        "first_name": "Issiah",
+        "last_name": "Warbey",
+        "email": "iwarbey1@yelp.com",
+        "gender": "Male",
+        "avatar": 3,
+        "job_title": "Senior Product Manager",
+        "team_id": 1
+    },
+    {
+        "id": 3,
+        "first_name": "Shelba",
+        "last_name": "Gillimgham",
+        "email": "sgillimgham2@myspace.com",
+        "gender": "Female",
+        "avatar": 2,
+        "job_title": "Senior Software Engineer",
+        "team_id": 1
+    },
+    {
+        "id": 4,
+        "first_name": "Donnell",
+        "last_name": "Morter",
+        "email": "dmorter3@apple.com",
+        "gender": "Male",
+        "avatar": 6,
+        "job_title": "Frontend Engineer",
+        "team_id": 1
+    },
+    {
+        "id": 5,
+        "first_name": "Michaella",
+        "last_name": "Blakely",
+        "email": "mblakely4@desdev.cn",
+        "gender": "Female",
+        "avatar": 4,
+        "job_title": "Senior Software Engineer",
+        "team_id": 1
+    },
+    {
+        "id": 6,
+        "first_name": "Celestia",
+        "last_name": "Waddy",
+        "email": "cwaddy5@upenn.edu",
+        "gender": "Female",
+        "avatar": 5,
+        "job_title": "Frontend Engineer",
+        "team_id": 1
+    },
+    {
+        "id": 7,
+        "first_name": "Joceline",
+        "last_name": "Glaum",
+        "email": "jglaum6@seesaa.net",
+        "gender": "Female",
+        "avatar": 7,
+        "job_title": "Software Engineer",
+        "team_id": 1
+    },
+    {
+        "id": 8,
+        "first_name": "Terrie",
+        "last_name": "Note",
+        "email": "tnote7@gizmodo.com",
+        "gender": "Bigender",
+        "avatar": 8,
+        "job_title": "Software Engineer",
+        "team_id": 1
+    },
+    {
+        "id": 9,
+        "first_name": "Stefa",
+        "last_name": "Tincey",
+        "email": "stincey8@cornell.edu",
+        "gender": "Female",
+        "avatar": 2,
+        "job_title": "Frontend Engineer",
+        "team_id": 1
+    },
+    {
+        "id": 10,
+        "first_name": "Whitby",
+        "last_name": "Yukhov",
+        "email": "wyukhov9@prlog.org",
+        "gender": "Male",
+        "avatar": 3,
+        "job_title": "Senior Frontend Engineer",
+        "team_id": 1
+    }
+]
